@@ -1,6 +1,6 @@
 html,
 body {
-  padding: 0;
+  padding: 0 0 50px 0;
   margin: 0;
 }
 
@@ -58,8 +58,9 @@ h1 {
 #navbar {
   display: flex;
   justify-content: space-around;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  z-index: 10;
   border-top: 1px solid black;
   width: 100%;
   padding: 16px 0;
